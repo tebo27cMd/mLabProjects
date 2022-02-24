@@ -1,0 +1,130 @@
+h1, h2, h3, h4, h5, h6, p, a{
+     font-family:helvetica,sans-serif,garamond
+    
+
+}
+
+body{
+    background: url(../img/background.jpeg);
+}
+
+#HeaderTable{
+    width: 100%;
+    background-color: chartreuse;
+}
+.logo{
+    width: 70px;
+    padding-left: 10%;
+    
+}
+
+nav{
+    padding-right: 30px;
+
+}
+a{
+    margin-right: 30px;
+    text-decoration: none;
+    color: black;
+}
+
+#mainTable{
+    width: 100%;
+    background-color: black;
+    
+}
+
+video{
+    width: 100%; 
+   
+    
+}
+
+#MyImage{
+     width: 480px;
+
+} 
+
+.BioSection{
+    width: 60%;
+    text-align: left ;
+    
+}
+
+.BtnInfo{
+    padding: 12px ;
+    border-radius: 10px;
+    font-size: small;
+
+}
+
+#FooterTable{
+    width: 100%;
+    background-color: chartreuse;
+    
+
+}
+.InformationDesk{
+  padding-right: 30px;
+
+}
+
+#CntFooter{
+    height: 100vh;
+}
+
+#AbtFooter{
+    height: 100vh;  
+}
+
+.facebook{
+ display: block;
+ text-align: center;
+}
+
+p{
+    padding-right: 10%;
+   color: chartreuse;
+}
+
+#headings{
+    color: chartreuse;
+}
+
+main{
+    min-height: 100vh;
+}
+.ContactForm{
+    width: 100%;
+}
+
+.input[type=text],select,textarea{
+    width: 100%;
+    padding:12px
+    border-radius 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+.container1{
+    width: 50%;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+#table1{
+    width: 100%;
+}
+
+#textMov{
+    margin-left: 4%;
+}
+
+#coloring{
+    color: cadetblue;
+}
+#sendButton{
+   margin-left: 40px;
+}

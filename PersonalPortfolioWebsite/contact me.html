@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+       <title>Contact Us</title>
+       <link rel="stylesheet" href="./assets/css/style.css">
+       <script src="./index.js"></script>
+</head>
+         
+<body>
+     <!--header section with logo and navigation-->
+    <header>
+        <table id="HeaderTable" >
+            <tr>
+                <td>
+                    <img class="logo" src="../BOOTCAMP CODETRIBE/assets/img/Logo_20220212_161310.png" alt="logo">
+               </td> 
+
+                <td align="right">
+                     <nav>
+                         <a  href="index.html">Home</a>
+                         <a href="about me.html">About Me</a>
+                         <a href="contact me.html">Contact Us</a>
+                     </nav>
+                </td>
+            </tr>
+        </table>
+     
+    </header>
+
+    <main id="headings">
+        <h1>Contact Us</h1>
+        <p id="textMov">For further enquires please leave a Message on our website 
+            Or on any of our social media pages.
+        </p>
+
+        <table class="ContactForm">
+            <tr>
+                <td id=table1>
+                  <div class="container1">
+                      <!--form for communication-->
+                      <form class="ContactForm"
+                          action="https://formspree.io/f/xbjwobry"
+                          method="POST"                
+                         <ul style="list-style-type: none;">
+                             <li>Name:</li>                                 
+                             <input type="text" name="name" pattern="[a-zA-Z]{2,}" id="-name"   placeholder="(required) minimum of 2 letters">
+                             <li> Surname</li> 
+                              <input type="text" surname="surname" id="full-name" pattern="[a-zA-Z]{2,}" placeholder="(required) minimum of 2 letters">
+                              <li>Your email:</li>
+                               <script src="./index.js"></script>
+                             <input type="email" name="email" placeholder="required">
+                              </label>
+                             <label>
+                             <li> Your message:</li>
+                             <textarea name="message" placeholder="type message here"></textarea>
+                         </ul>
+                         
+                         <button id=sendButton type="submit">Send</button> 
+                     </form>                                    
+                 </div>
+                </td>
+            </tr>
+        </table>
+    </main>
+</body>
+
+<footer >
+
+  <!--footer section with social media links and mail-->
+    <table id="FooterTable" >
+        <tr class="InformationDesk">
+            <td>
+               <div>
+                        <ul style="list-style-type: none;">
+                           <li><i id="Facebook" class="fab fa-facebook fa-2x fa-distribute-spacing-vertical" >Facebook</i></li>
+                           <li><i id="Whatsapp" class="fab fa-whatsapp fa-2x fa-distribute-spacing-vertical"> Whatsapp</i></li>
+                           <li> <i id="Email" class="fab fa-envelope fa-2x fa-distribute-spacing-vertical"> E-mail</i></li>
+                        </ul>
+               </div> 
+            </td>
+  
+            <td>
+               <div >
+                     <ul style="list-style-type: none;">
+                       <li><i id="github" class="fab fa-github fa-2x fa-distribute-spacing-vertical" >github</i></li>
+                       <li><a href="contact me.html">Contact Me</a></ul>
+                          
+                     </ul>
+               </div> 
+           </td>
+        </tr>
+    </table>
+       
+   
+  </footer>
+  
+
+
+</html>
